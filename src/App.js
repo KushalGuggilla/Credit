@@ -7,14 +7,14 @@ import { Button, DatePicker } from 'antd';
 
 import { useState } from 'react';
 import { CheckCircleTwoTone } from '@ant-design/icons';
-
+import Hi from './Practice';
 import { Progress } from 'antd';
 
 
 
 let obj = [
   { total : 1900000,
-   profit : 1 ,
+   profit : 3 ,
    return : 4,
    debt : 3,
     current : 5
@@ -88,11 +88,12 @@ function App() {
       <p className ></p>
      
        
+     
+   
+   
+   
+     <Hi prof = {obj[0].profit} ret = {obj[0].return } debt = {obj[0].debt} curr = {obj[0].current} />
      </div>
-   
-   
-   
-   
    
      <p className = 'subhead'> Credit limit available &nbsp; : </p>
      
